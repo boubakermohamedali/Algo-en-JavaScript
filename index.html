@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="1tr">-->
+<html>
+    <!-- head -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- CSS -->
+        <!-- Font -->
+        <link href="https//fonts.googleleapis.com/css?family=Montsserrat:700" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!-- Font -->
+    </head>
+    <!-- head -->
+    <!-- body -->
+    <body>
+        <!-- header -->
+        <div class="block">
+            <header class="header">
+                <!-- <i class="fas fa-align-justify"></i> 
+                <a href="#" class="header-logo">Mon Portfolio</a> -->
+                <nav class="header-menu">
+                    <!-- <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span> --> 
+                    <a href="#">Accueil</a>
+                    <a href="#">A propos</a>
+                    <a href="#">Mes travaux</a>
+                    <a href="#">Contact</a> 
+                </nav>
+            </header>
+        </div>
+        <!-- header-->
+        <!-- banner -->
+        <div class="block">
+            <div class="banner">
+                <img src="img/bg..jpg" alt="Un ordinateur avec du code" class="banner-image" style=" width: 1200px; height: 500px;">
+                <div class="banner-content">
+                    <h1 class="title is-1" style=" font-size: 20px;">Bienvenue sur mon Portfolio</h1>
+                    <h2 class="subtitle">Découvrez mes travaux et mon univers !</h2>
+                    <button class="button is-link">Contactez-moi</button>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <!-- modal -->
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Modal title</p>
+                <button class="delete" aria-label="close"></button>
+              </header>
+              <section class="modal-card-body">
+                <!-- Content ... -->
+              </section>
+              <footer class="modal-card-foot">
+                <button class="button is-success">Save changes</button>
+                <button class="button">Cancel</button>
+              </footer>
+            </div>
+          </div>
+          <!-- modal -->
+
+        <!-- section : à propos -->
+        <div class="block">
+            <h2 class="subtitle heading-site">A propos</h2>
+            <div class="container about">
+                <div class="columns">
+                    <div class="column about-single-element">
+                        <i class="fas fa-code icon"></i>
+                        <p>
+                            faux texte : document.getElementById("output").innerHTML =0; document.getElementById("outputs").innerHTML =0;
+                        </p>
+                    </div>
+                    <div class="column about-single-element">
+                        <i class="fas fa-code icon "></i>
+                        <p>
+                            en lire un texte : document.getElementById("input").innerHTML = 0; document.getElementById("resultat").innerHTML =0;
+                        </p>
+                    </div>
+                    <div class="column about-single-element">
+                        <!-- <i class="fas fa-angle-double-right"></i> -->
+                        <i class="fas fa-home icon"></i>
+                        <p>
+                            dire un mot :  document.getElementById("input").innerHTML = 0; document.getElementById("statotal").innerHTML =0; 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section : à propos -->
+        <!-- portfolio -->
+        <div class="block">
+            <h2 class="subtitle heading-site">Mon portfolio</h2>
+            <div class="container">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-8">
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical">
+                                <article class="tile is-child">
+                                    <div class="notification">Contient une photo</div>
+                                    <!--<p class="title">UFCM-Nice</p>
+                                    <p class="subtitle">Vendredi le 27 novembre 2018</p>--> 
+                                </article>
+                                <article class="tile is-child">
+                                    <img src="img/bg..jpg" alt="la description de la photo" style=" width: 200px; height: 200px;">
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child">
+                                    <div class="notification is-primary">
+                                        <div class="COLORED">100 * 100</div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child">
+                                <img src="img/bg..jpg" alt="la description de la photo" style = "width: 200px; height: 100px;">
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child">
+                            <div clas="notification is-warning">
+                              le contenu
+                            </div>
+                            <!--<div class="content">
+                            <p class="title">Tall tile</p>
+                            <p class="subtitle">With even more content</p>-->
+                            <!--<div class="content">-->
+                            <!-- Content 
+                            </div>
+                            </div>-->
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio -->
+
+        <!-- Contact -->
+        <div class="block">
+            <footer class="footer">
+                <h2 class="heading-size">Contactez-moi</h2>
+                <div class="footer-contact-form">
+                    <form>
+                        <div class="field">
+                            <label class="label">Votre nom</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Text input" style = "width: 900px; height: 30px;">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Votre prénon</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="e.g Alex Smith"style = "width: 900px; height: 30px;">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Votre email</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="e.g Alex Smith" style = "width: 900px; height: 30px;">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Votre message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Explain how we can help you" style= " width: 300px; height: 100px;"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-informations">
+                    <h2><strong>Contact</strong></h2>
+                    <p>42 rue des développeurs web</p>
+                    <p>75018 Paris</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <h2><strong>Contact</strong><br>
+                    <img src="image/youtube.png" class="sociaux" style="width: 2%">
+                    <img src="image/instagram.png" class="sociaux" style="width: 2%">
+                    <img src="image/facebook.png" class="sociaux" style="width: 2%">
+                    <img src="image/twitter.png" class="sociaux" style="width: 3%">
+                </h2> -->
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+    </body>
+    <!-- body -->
+</html>
+        <!--<section class ="section">
+        <div class ="container has-text-centré">
+            <h2 class ="title">Contact</h2>
+
+            <formulaire>
+                <div class ="field is-horizontal">
+                    <div class ="field-body">
+                        <div class ="field">
+                            <p class ="control has-icons-left">
+                                <input class="input"type ="text"placeholder ="Name">
+                                <span class ="icon is-small is-left">
+                                    <i class ="fas fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class ="field">
+                            <p class ="control has-icons-left has-icons-right">
+                                <input class ="input"type ="email"placeholder ="Email">
+                                <span class = "icon is-small is-left">
+                                    <i class ="fas fa-enveloppe"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class ="field is-horizontal">
+                    <div class ="field-body">
+                        <div  class = " field " >
+                            <div  class = " control " >
+                                <textarea  class = " textarea " placeholder = " Message us " > </ textarea >
+                            </div >
+                        </div >
+                    </div >
+                </div >-->
+        <!-- portfolio -->
+        <!-- section : à propos 
+        <h1>Formulaire de contact</h1>
+        <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+            <table class="form-style">
+                <tr>
+                    <td>
+                        <label>
+                            Votre nom <span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" class="long"/>
+                        <span class="error" id="errorname"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Votre adresse e-mail <span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" class="long"/>
+                        <span class="error" id="erroremail"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Message <span class="required">*</span>
+                        </label>
+                    </td>
+                    <td>
+                        <textarea name="message" class="long field-textarea" style="margin: 0px; width: 170px; height: 64px;"></textarea>
+                        <span class="error" id="errormsg"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Réinitialiser"> 
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br/><br/><br/>
+        <dl>
+            <dt>Web</dt>
+            <dd>The part of the Internet that contains websites and web pages</dd>
+            <dt>HTML</dt>
+            <dd>A markup language for creating web pages</dd>
+            <dt>CSS</dt>
+            <dd>A technology to make HTML look better</dd>
+          </dl>
+          <p> mon projet personnel</p> -->
+
+<!--
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">DesignX</label>
+            <ul>
+                <li><a class="active"href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+                
+            </ul>
+        </nav>
+        <section> <div class="columnabout-single-element">3</div></section> <section class="hero is-fullheight">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns is-8 is-variable ">
+					<div class="column is-two-thirds has-text-left">
+						<h1 class="title is-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nous contacter</font></font></h1>
+						<p class="is-size-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </font><font style="vertical-align: inherit;">Nulla eligendi soluta voluptate facere molestiae conséquatur.</font></font></p>
+						<div class="social-media">
+							<a href="https://facebook.com" target="_blank" class="button is-light is-large"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href="https://instagram.com" target="_blank" class="button is-light is-large"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="https://twitter.com" target="_blank" class="button is-light is-large"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="column is-one-third has-text-left">
+						<div class="field">
+							<label class="label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nom</font></font></label>
+							<div class="control">
+								<input class="input is-medium" type="text">
+							</div>
+						</div>
+						<div class="field">
+							<label class="label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email</font></font></label>
+							<div class="control">
+								<input class="input is-medium" type="text">
+							</div>
+						</div>
+						<div class="field">
+							<label class="label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Message</font></font></label>
+							<div class="control">
+								<textarea class="textarea is-medium"></textarea>
+							</div>
+						</div>
+						<div class="control">
+							<button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Envoyer le message</font></font></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>element.style {
+}
+
+element.style {
+}
+.hero.is-fullheight {
+    min-height: 100vh;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between};
+<article, aside, figure, footer, header, hgroup, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+ body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+body, button, input, select, textarea {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html {
+    background-color: #fff;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}      
+<div class="columns">
+    <div class="column">1</div>
+    <div class="column">2</div>
+    <div class="column">3</div>
+    <div class="column">4</div>
+    <div class="column">5</div>
+  </div>
+            <span class="icon is-medium">
+  <span class="fa-stack">
+    <i class="fas fa-circle fa-stack-2x"></i>
+    <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+  </span>
+</span>
+       -->
+        
